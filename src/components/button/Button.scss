@@ -1,0 +1,85 @@
+  .btn{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    &:disabled{
+      color: #7D849A;
+      cursor: not-allowed;
+    }
+  }
+  .btn.full{
+    width: 100%;
+  }
+  .btn.lg{
+    min-width: 197px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .btn.md{
+    min-width: 179px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .btn.sm{
+    min-width: 117px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .btn.filled{
+    background: #2450FF;
+    color: #FAFAFF;
+    font-style: normal;
+    &:hover{
+      background: #2649D6;
+    }
+    &:active{
+      box-shadow: 0px 0px 0px 2px #ACBDFF;
+    }
+    &:disabled{
+      background: #EDEDED;
+    }
+  }
+  .btn.bordered{
+    background: #FFFFFF;
+    border: 2px solid #2450FF;
+    color: #2450FF;
+    &:hover{
+      border: 2px solid #2649D6;
+      color: #2649D6;
+    }
+    &:active{
+      box-shadow: 0px 0px 0px 2px #ACBDFF;
+    }
+    &:disabled{
+      border: 2px solid #7D849A;
+      color: #7D849A;
+    }
+  }
+  .btn.gray{
+    background: #EDEDED;
+    color: #30343F;
+    &:hover{
+      background: #DDDDDD;
+      color: #30343F;
+    }
+    &:active{
+      box-shadow: 0px 0px 0px 2px #EDEDED;
+      text-decoration-line: underline;
+    }
+    &:disabled{
+      border: 2px solid #7D849A;
+      color: #7D849A;
+    }
+  }
