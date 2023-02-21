@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px 32px;
     gap: 8px;
     cursor: pointer;
     border: none;
@@ -18,24 +17,24 @@
   }
   .btn.lg{
     min-width: 197px;
-    height: 56px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    padding: 16px 32px;
   }
   .btn.md{
     min-width: 179px;
-    height: 40px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    padding: 8px 16px;
   }
   .btn.sm{
     min-width: 117px;
-    height: 32px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    padding: 4px 8px;
   }
   .btn.filled{
     background: #2450FF;
